@@ -26,4 +26,9 @@ These are with the default configs
 1. join #arlingtonruby: `/join #arlingtonruby`
 1. Say hi!: `hi!`
 
+## Leaving and coming back
+
+1. detatch your tmux session: `ctrl-b, d`
+1. reattach your existing session: `tmux attach`
+
 [1]: http://leopard.in.ua/2013/01/04/chef-solo-getting-started-part-1/
