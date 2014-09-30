@@ -1,7 +1,8 @@
 {
   "run_list": [
     "recipe[nginx]",
-    "recipe[user::data_bag]"
+    "recipe[user::data_bag]",
+    "recipe[irssi]"
   ],
   "nginx": {
     "version": "1.6.0",
