@@ -14,4 +14,16 @@ Followed [This chef-solo doc][1] to get the basics in place.
    in there you can run `irssi`.
     1. Documentation on using these commands is on the internet somewhere...
 
+## Using tmux and irssi
+
+These are with the default configs
+
+1. ssh into the server: `ssh (you)@ruby.loki.ws`
+1. start tmux: `tmux`
+1. start irssi: `irssi`
+1. connect to freenode: `/server irc.freenode.net`
+1. set your nick: `/nick (you)`
+1. join #arlingtonruby: `/join #arlingtonruby`
+1. Say hi!: `hi!`
+
 [1]: http://leopard.in.ua/2013/01/04/chef-solo-getting-started-part-1/
