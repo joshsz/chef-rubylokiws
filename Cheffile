@@ -3,6 +3,12 @@
 
 site 'https://supermarket.getchef.com/api/v1'
 
+cookbook 'runit'
+cookbook 'nginx', git: 'git://github.com/opscode-cookbooks/nginx.git'
+
+cookbook 'irssi'
+cookbook 'user' # simple user management
+
 # cookbook 'chef-client'
 
 # cookbook 'apache2', '>= 1.0.0'

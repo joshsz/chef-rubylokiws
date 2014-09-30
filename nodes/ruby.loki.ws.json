@@ -1,7 +1,16 @@
 {
   "run_list": [
-
+    "recipe[nginx]",
+    "recipe[user::data_bag]"
   ],
+  "nginx": {
+    "version": "1.6.0",
+    "install_method": "source",
+    "default_site_enabled": true,
+    "source": {
+      "modules": ["nginx::http_gzip_static_module", "nginx::http_ssl_module"]
+    }
+  },
   "automatic": {
     "ipaddress": "ruby.loki.ws"
   }
