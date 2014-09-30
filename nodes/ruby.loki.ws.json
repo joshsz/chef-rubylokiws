@@ -11,6 +11,7 @@
       "modules": ["nginx::http_gzip_static_module", "nginx::http_ssl_module"]
     }
   },
+  "users": ["ubuntu", "josh"],
   "automatic": {
     "ipaddress": "ruby.loki.ws"
   }

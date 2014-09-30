@@ -1,0 +1,7 @@
+{
+  "id": "ubuntu",
+  "comment": "Ubuntu Admin User",
+  "home": "/home/ubuntu",
+  "ssh_keys": ["ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2FgCZIxOrQR/HMeOkKtfrYfBZ/7FkrjPWRq1V16HouED5o92JDOXEthXummAbQMWk0xeiz+TscK7SSDLhT1djHWuRly7ilJrzXebuZ1XAbqA/hMqrPjrL7CzkPJdW7IsALy7yq9c4bg7FzkLpqkDHxIMKOVsgiNl+OsD9M963gKMrtQBXgzyfWnAC79K5qFkyInoxe2aFZcwVQ702T7wNW5sRrXomKMeOH2TbSXGtbLlEbdQdq02lcwyCl2M8Sf+w7UdGPHRtrv5ByFMLEEckYlR+D5DrKcxldI5DwHMwIxZcw6pr0p5PMVtJtOPET+sxE6DJHTtBcZdtEZF/MTD9 josh@atomos"]
+}
+
